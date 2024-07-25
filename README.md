@@ -1,34 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<h1>Jogo do número secreto</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>JS Game</title>
-</head>
+<h2>�� Sobre</h2>
+<p>Projeto utilizado nos cursos de Versionamento.</p>
 
-<body>
-
-    <div class="container">
-        <div class="container__conteudo">
-            <div class="container__informacoes">
-                <div class="container__texto">
-                    <h1>Adivinhe o <span class="container__texto-azul">numero secreto</span></h1>
-                    <p class="texto__paragrafo">Escolha um número entre 1 a 100</p>
-                </div>
-                <input type="number" min="1" max="10" class="container__input">
-                <div class="chute container__botoes">
-                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
-                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
-                </div>
-            </div>
-            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
-        </div>
-    </div>
-
+## �� Tecnologias
+<div>
+  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white"&gt;
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"&gt;
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"&gt;
+</div>
