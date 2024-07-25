@@ -1,9 +1,34 @@
-No vasto universo da programação e desenvolvimento de software, o GitHub brilha como uma estrela de inovação e colaboração. Desde sua fundação em 2008 por Chris Wanstrath, PJ Hyett e Tom Preston-Werner, o GitHub tem sido um ponto focal para desenvolvedores ao redor do mundo.
+<!DOCTYPE html>
+<html lang="pt-br">
 
-Com sua plataforma baseada em Git, o GitHub facilita o controle de versão e o trabalho colaborativo em projetos de software. Comunidades inteiras se formam em torno de repositórios públicos e privados, onde código-fonte é compartilhado, revisado e aprimorado continuamente.
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Game</title>
+</head>
 
-A simplicidade do GitHub, combinada com poderosas ferramentas de gerenciamento de projetos como issues, pull requests e workflows de CI/CD, torna-o indispensável para equipes de desenvolvimento ágeis e distribuídas.
+<body>
 
-Milhões de desenvolvedores utilizam o GitHub diariamente para colaborar em projetos de código aberto e privados. É um verdadeiro ecossistema de inovação, onde ideias se transformam em realidade e soluções são compartilhadas com o mundo.
+    <div class="container">
+        <div class="container__conteudo">
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Adivinhe o <span class="container__texto-azul">numero secreto</span></h1>
+                    <p class="texto__paragrafo">Escolha um número entre 1 a 100</p>
+                </div>
+                <input type="number" min="1" max="10" class="container__input">
+                <div class="chute container__botoes">
+                    <button onclick="verificarChute()" class="container__botao">Chutar</button>
+                    <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
+                </div>
+            </div>
+            <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+        </div>
+    </div>
 
-Além de ser uma plataforma para hospedagem de código, o GitHub é um centro de aprendizado e desenvolvimento profissional. Desde iniciantes até veteranos da programação, todos encontram valor no vasto repositório de conhecimento e experiência disponível.
